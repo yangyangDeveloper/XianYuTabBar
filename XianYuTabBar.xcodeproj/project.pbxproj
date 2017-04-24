@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A00E59BA1EADDDE80033BC9C /* XianYuView.m in Sources */ = {isa = PBXBuildFile; fileRef = A00E59B91EADDDE80033BC9C /* XianYuView.m */; };
 		A017D7011EA9F2A800063178 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A017D7001EA9F2A800063178 /* main.m */; };
 		A017D7041EA9F2A800063178 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A017D7031EA9F2A800063178 /* AppDelegate.m */; };
 		A017D7071EA9F2A800063178 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A017D7061EA9F2A800063178 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A00E59B81EADDDE80033BC9C /* XianYuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XianYuView.h; sourceTree = "<group>"; };
+		A00E59B91EADDDE80033BC9C /* XianYuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XianYuView.m; sourceTree = "<group>"; };
 		A017D6FC1EA9F2A800063178 /* XianYuTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XianYuTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A017D7001EA9F2A800063178 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A017D7021EA9F2A800063178 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -101,6 +104,8 @@
 		A017D6FE1EA9F2A800063178 /* XianYuTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				A00E59B81EADDDE80033BC9C /* XianYuView.h */,
+				A00E59B91EADDDE80033BC9C /* XianYuView.m */,
 				A017D7021EA9F2A800063178 /* AppDelegate.h */,
 				A017D7031EA9F2A800063178 /* AppDelegate.m */,
 				A017D7051EA9F2A800063178 /* ViewController.h */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A00E59BA1EADDDE80033BC9C /* XianYuView.m in Sources */,
 				A017D7071EA9F2A800063178 /* ViewController.m in Sources */,
 				A017D7041EA9F2A800063178 /* AppDelegate.m in Sources */,
 				A017D7011EA9F2A800063178 /* main.m in Sources */,
@@ -507,6 +513,7 @@
 				A017D72B1EA9F2A800063178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A017D72C1EA9F2A800063178 /* Build configuration list for PBXNativeTarget "XianYuTabBarTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +522,7 @@
 				A017D72E1EA9F2A800063178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A017D72F1EA9F2A800063178 /* Build configuration list for PBXNativeTarget "XianYuTabBarUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +531,7 @@
 				A017D7311EA9F2A800063178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

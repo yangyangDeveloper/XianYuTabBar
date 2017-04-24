@@ -1,14 +1,13 @@
 //
-//  ViewController.h
+//  XianYuView.h
 //  XianYuTabBar
 //
-//  Created by Tech-zhangyangyang on 2017/4/21.
+//  Created by Tech-zhangyangyang on 2017/4/24.
 //  Copyright © 2017年 Tech-zhangyangyang. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface XianYuView : UIView
 
 @end
-
